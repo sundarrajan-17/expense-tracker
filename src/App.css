@@ -1,0 +1,50 @@
+.Inputfield{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+.Inputfield>input{
+    padding: 8px;    
+}
+li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+li>button{
+    background-color: rgb(83, 34, 34);
+    border: none;
+    color: white;
+}
+.Inputfield>button{
+    background-color: rgb(22, 97, 97);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 400;
+}
+ul{
+    width: 260px;
+}
+button:hover{
+    cursor: pointer;
+}
+.Balance{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+body{
+    background-color: #025464;
+    overflow-x: hidden;
+    color: aliceblue;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    box-sizing: border-box;
+}
